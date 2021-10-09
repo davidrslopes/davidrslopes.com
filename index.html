@@ -10,26 +10,32 @@
 		<!-- ##### | STYLES | // -->
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/styles.min.css">
 		<!-- // | STYLES | ##### -->
 		
 		<!-- ##### | SEO | // -->
-		<title>Web Developer «|» David RS Lopes</title>
+		<title>Web Developer &#128077; David RS Lopes</title>
 		<!-- // | SEO | ##### -->
 	</head>
 	<body>
 		<!-- ##### | CONTENT | // -->
-		<div class="bg-dark text-secondary px-4 py-5 text-center vh-100">
-			<div class="py-5">
-				<h1 class="display-5 fw-bold text-white">Olá</h1>
-				<div class="col-lg-6 mx-auto">
-					<p class="fs-5 mb-4">Estou a renovar este espaço, novidades em breve.</p>
-					<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-						<a href="mailto:davidrslopes@gmail.com" target="_blank" rel="nofollow" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Contato</a>
-						<button type="button" id="liveToastBtn" class="btn btn-outline-light btn-lg px-4">Este botão não faz nada</button>
+		<main>
+			<section class="bg-dark text-secondary px-4 py-5 text-center vh-100">
+				<div class="py-5">
+					<h1 class="display-5 fw-bold text-white">Olá</h1>
+					<div class="col-lg-6 mx-auto">
+						<p class="fs-5 mb-4">Estou a renovar este espaço, novidades em breve.</p>
+						<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+							<a href="mailto:davidrslopes@gmail.com" target="_blank" rel="nofollow" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Contato</a>
+							<button type="button" id="liveToastBtn" class="btn btn-outline-light btn-lg px-4">Este botão não faz nada</button>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</section>
+		</main>
 		<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
 			<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
 				<div class="toast-header">
@@ -44,20 +50,10 @@
 			</div>
 		</div>
 		<!-- // | CONTENT | ##### -->
-		<!-- ##### | SCRIPTS | // -->
-		<!-- Bootstrap Bundle-->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-		<script>
-			var toastTrigger = document.getElementById('liveToastBtn')
-			var toastLiveExample = document.getElementById('liveToast')
-			if (toastTrigger) {
-				toastTrigger.addEventListener('click', function () {
-					var toast = new bootstrap.Toast(toastLiveExample)
 
-					toast.show()
-				})
-			}
-		</script>
+		<!-- ##### | SCRIPTS | // -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+		<script src="assets/js/scripts.min.js"></script>
 		<!-- // | SCRIPTS | ##### -->
 	</body>
 </html>
