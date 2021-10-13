@@ -54,12 +54,12 @@ if(getUserMainLanguage() !== 'pt'){
     siteCopy = ptCopy;
 }
 
-$('h1').text(siteCopy['h1']);
-$('p').text(siteCopy['p']);
+$('#heroTitle').text(siteCopy['h1']);
+$('#heroText').text(siteCopy['p']);
 $('#btnContact').text(siteCopy['btnContact']);
 $('#btnNothing').text(siteCopy['btnNothing']);
-$('#nothingToast strong').text(siteCopy['toastTitle']);
-$('#nothingToast small').text(siteCopy['toastWhen']);
+$('#nothingToast .toast-header strong').text(siteCopy['toastTitle']);
+$('#nothingToast .toast-header small').text(siteCopy['toastWhen']);
 $('#nothingToast .toast-body').text(siteCopy['toastText']);
 
 // | LANGUAGE | ##### //
